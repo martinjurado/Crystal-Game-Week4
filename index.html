@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch" rel="stylesheet">
+    
+    <title>Homer's Donut Run</title>
+</head>
+<style>
+
+    body {
+
+        background-image: url(assets/images/livingroom.jpg);
+        
+    }
+
+</style>
+
+<body>
+
+    <div class="container">
+        
+        <!--header  -->
+        <img src="assets/images/simpsons.jpeg" class="logo"> 
+
+        <!-- sub-header -->
+        <h2 id="subheader">Homer's Donut Run</h2>
+        
+        <img src="assets/images/homer.png" alt="homer" class="homerdonut">
+        
+        <!-- Instructions -->
+        <p class="instructions">You will be given a random number. There are 4 donuts below with corresponding
+            values on each donut that adds to your score. 
+            Match the number with your score and you win! Otherwise...d'oh!
+        </p>
+
+        <!-- Score Counters -->
+        <div>
+            <h3 class="randomnumber">Number:</h3>
+            <p id="randomplace"></p>
+        </div>
+        <div>
+            <h3 class="score">Score:</h3>
+            <p id="scoreplace"></p>
+        </div> 
+        <div>
+            <h3 class="wins">Wins:</h3>
+            <p id="winsplace"></p>
+        </div>
+        <div>
+            <h3 class="losses">Losses:</h3>
+            <p id="lossesplace"></p>
+            
+        </div>
+
+        <!-- Donut Choice -->
+        <div id="donuts">
+        <img src="assets/images/donut.png" class="donutchoice1" value="30">
+        <img src="assets/images/donut.png" class="donutchoice2">
+        <img src="assets/images/donut.png" class="donutchoice3">
+        <img src="assets/images/donut.png" class="donutchoice4">
+
+        <img src="assets/images/maggie.png" class="maggie">
+        <!-- Audio  -->
+        <audio id="toink" src="assets/sounds/pling.mp3"></audio>
+        <audio id="caramba" src="assets/sounds/Homer doh.wav"></audio>
+        <audio id="bart" src="assets/sounds/Bart.wav"></audio>
+        
+        </div>
+
+    </div>
+    <!-- JS & JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script type="text/javascript" src="assets/javascript/game.js">
+
+</script>
+
+</script>
+
+</body>
+
+</html>
