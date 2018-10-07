@@ -127,7 +127,7 @@ h3 {
 }
 
 .randomnumber {
-    bottom:-120px;
+    bottom:-78px;
     position: absolute;
     padding-left: 3%;
     float: left;
@@ -145,7 +145,7 @@ h3 {
 .wins {
     color: salmon;
     clear: both;
-    bottom:-115px;
+    bottom:-70px;
     position: absolute;
     padding-left: 3%;
     float: left;
