@@ -1,4 +1,4 @@
-# Crystal-Game-Week6
+# Crystal Game
 
 The Simpsons-themed crystal game. 
 
