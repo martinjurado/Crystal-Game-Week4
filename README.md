@@ -9,5 +9,7 @@ There will be four donuts displayed as buttons on the page on the bottom part of
 - HTML / CSS
 - jQuery
 
+![](assets/images/cover.png)
+
 ## Link 
 Link to game: https://martinjurado.github.io/Crystal-Game-Week4/
