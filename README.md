@@ -12,4 +12,4 @@ There will be four donuts displayed as buttons on the page on the bottom part of
 ![](assets/images/cover.png)
 
 ## Link 
-Link to game: https://martinjurado.github.io/Crystal-Game-Week4/
+Link to game: https://martinjurado.github.io/Crystal-Game-Week6/
